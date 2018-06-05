@@ -1,16 +1,7 @@
 # Minidlna Docker image
+This image is from [from](https://blog.slucas.fr/series/multi-architecture-docker-image/)
 
 This image is based on Alpine Linux image, which is only a 5MB image, and only contains the package `minidlna`.
-
-This image should be available (unless a problem happened on my side) for the following architectures :
- * amd64
- * armhf
- * arm64
-
-I'm using a proper manifest so you can use the main tags directly (no need for amd64-X.X.X).
-
-If you want to learn more about multi-architecture docker images, please read [my blog](https://blog.slucas.fr/series/multi-architecture-docker-image/)
-
 ## Usage Example
 
 ```bash
